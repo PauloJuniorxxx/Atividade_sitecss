@@ -18,6 +18,8 @@
             <li><a href="#">Suporte</a></li>
        </ul>
        
+       <!--comentario-->
+       
        <div id="store"><a href="#"><img src="imagens/search.png" alt=""/></a></div>
         <div id="search"><a href="#"><img src="imagens/store.png" alt=""/></a></div>
        
