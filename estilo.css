@@ -6,10 +6,22 @@
 #menuTopo2{float: right; padding: 5px;}
 #menuTopo li{display: inline; padding-left: 10px;padding-right: 15px;}
 #menuTopo2 li{display: inline; padding-right: 10px;padding-right: 15px;}
-#menuTopo li:hover{background: white}
-#menuTopo2 li:hover{background: white}
+#menuTopo li:hover{color: black}
+#menuTopo2 li:hover{color: black}
 #menuTopo{position: relative; bottom: 30px; left: 200px;}
 #menuTopo2{position: relative; bottom: 30px; right: 200px;}
+
+#menuTopo a{
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+}
+
+#menuTopo2 a{
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+}
 
 #store{position: absolute; top: 2%; left: 3%}
 #search{position: absolute; top: 2%; left: 8%}
