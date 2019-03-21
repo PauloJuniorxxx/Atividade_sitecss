@@ -1,0 +1,55 @@
+#div01{width: 100%;height: 30px; padding: 10px; background-color: grey}
+
+#menuTopo{overflow: hidden;}
+#menuTopo2{overflow: hidden;}
+#menuTopo{float: left; padding: 5px;}
+#menuTopo2{float: right; padding: 5px;}
+#menuTopo li{display: inline; padding-left: 10px;padding-right: 15px;}
+#menuTopo2 li{display: inline; padding-right: 10px;padding-right: 15px;}
+#menuTopo li:hover{background: white}
+#menuTopo2 li:hover{background: white}
+#menuTopo{position: relative; bottom: 30px; left: 200px;}
+#menuTopo2{position: relative; bottom: 30px; right: 200px;}
+
+#store{position: absolute; top: 2%; left: 3%}
+#search{position: absolute; top: 2%; left: 8%}
+
+a.logo{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    bottom: 97%;
+    left: 47%;
+    
+}
+
+#texto{
+    position: absolute;
+    top: 57%;
+    left: 45%;
+    font-family: calibri;
+    font-size: 30px;
+    font-style: inherit;
+}
+
+a.fotos{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    top: 65%;
+    left: 13%;
+}
+
+#banner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 19%;
+    left: 18%;
+    background-image: url("imagens/celular.png");
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+}
+
+
+body,ul{padding:0; margin:0; list-style: none;}
